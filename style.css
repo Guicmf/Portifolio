@@ -12,7 +12,24 @@ body {
     color: #F4F4F4;
 }
 
+
+.dark-mode {
+    background-color: white;
+    color: black;
+  }
+
 /*header 1 inicio*/
+.button-darkmode{
+    line-height: 1;
+    background-color: rgba(10,23,55,0);
+    padding: 8px 20px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 35px;
+    cursor: pointer;
+    color: #F4F4F4;
+}
 
 header {
     height: 83px;
