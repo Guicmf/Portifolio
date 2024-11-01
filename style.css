@@ -14,9 +14,17 @@ body {
 
 
 .dark-mode {
-    background-color: white;
-    color: black;
+    background-color: #a1a1a1;
+    color: #1b1b1b;
+.house-a{
+    color: #1b1b1b;
+}
+#cabecario{
+    color: #1b1b1b;
+    background-color: #686868;
+}
   }
+
 
 /*header 1 inicio*/
 .button-darkmode{
@@ -68,10 +76,21 @@ header {
     color: #F4F4F4;
 }
 
+.house a{
+    color: #f4f4f4;
+    list-style-type: none;
+    text-decoration: none;
+}
+
 .house-a a {
     color: #f4f4f4;
     list-style-type: none;
     text-decoration: none;
+    transition: 1s;
+}
+
+.house-a a:hover{
+    color: #686868;
 }
 
 .linkedin {
@@ -112,8 +131,8 @@ header a {
 /*header 1 final*/
 /*main 1 inicio*/
 
-.principal {
-    background-image: url(fundonovo.png);
+.principal {background-image:
+    url(fundonovo.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -410,9 +429,10 @@ list-style-type: none;
     list-style-type: none;
     color: #F4F4F4;
     transition: 1s;
+    height: 30px;
+    width: 35px;
 }
 
 .footer2-icone ul li a:hover{
     color:#686868;
-
 }
